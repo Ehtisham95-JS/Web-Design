@@ -1,0 +1,434 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* First Section Start*/
+.first-section {
+    width:100%;
+    height:100vh;
+    background:linear-gradient(0deg, rgba(33, 32, 71, 0.7), rgba(33, 32, 71, 0.7)),    url('./Imgs/header.jpg');
+    background-size: cover;
+}
+/* Header Start*/
+.headr {
+    position: fixed;
+    top:0;
+    width:100%;
+    height:7rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 150px;
+    z-index: 1000;
+}
+
+.headr .title {
+    width:100%;
+}
+.headr .title h2 {
+    color:#ffd15a;
+    font-size:35px;
+    letter-spacing: 2px;
+    font-weight:800;
+}
+.headr .title h2 span {
+    color:white;
+}
+.headr ul {
+    width:100%;
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+.headr ul li {
+    text-decoration: none;
+}
+.headr ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+
+/* Header End */
+
+
+/* Title Of The Page(Start) */
+
+.maintitle {
+    width:100%;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.maintitle .mainContent {
+    padding:30px;
+    width:65rem;
+    margin:0 auto;
+}
+.maintitle .mainContent h2{
+    color:#ffd15a;
+    font-size:50px;
+    padding:10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.maintitle .mainContent h2 span {
+    color: #ffffff;
+}
+.maintitle .mainContent p {
+    color: #ffffff;
+    font-size:20px;
+    padding:10px;
+    width:55rem;
+    margin:0 auto;
+}
+.maintitle .mainContent .workBtn {
+    margin:30px 0px;
+}
+.maintitle .mainContent .workBtn button {
+    padding:18px;
+    font-size:18px;
+    font-weight: 600;
+    border-radius:15px;
+    border:none;
+    outline:none;
+    background-color: #ffd15a;
+    color:rgb(33, 32, 71);
+   cursor: pointer; 
+   transition: color 500ms;
+}
+
+.maintitle .mainContent .workBtn button:hover {
+    color:#ffffff;
+}
+
+.maintitle .mainContent .arrow {
+    margin-top:80px;
+}
+.maintitle .mainContent .arrow  a{
+    color:#ffd15a;
+    font-size: 35px;
+}
+
+/* Title Of The Page(End) */
+
+/* First Section End */
+
+
+/* Second Section Start */
+
+.second-section {
+    width:100%;
+    height:auto;
+    background-color: rgba(32, 33, 66, 1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top:50px;
+}
+.second-section .myImg {
+    /* border:1px solid orange; */
+    width:500px;
+    height:100%;
+    margin-left:200px;
+}
+.second-section .myImg img{
+    width:385px;
+    height:671px;
+    object-fit: cover;
+}
+.second-section .about {
+    /* border:1px solid orange; */
+    width:700px;
+    text-align: start;
+    padding-top:70px;
+}
+.second-section .about  h3{
+    color:#ffd15a;
+    font-size:35px;
+    font-weight:800;
+}
+.second-section .about  h2{
+    color:#fff;
+    font-size:50px;
+    font-weight:800;
+    padding:5px 0px;
+    /* border-bottom: 3px solid #ffd15a; */
+}
+.second-section .about  hr {
+    width:50px;
+    height:3px;
+    border:none;
+    margin-top:10px;
+    background-color: #ffd15a;
+}
+.second-section .about  p{
+    color:#fff;
+    font-size:20px;
+    padding-top:40px;
+}
+
+.second-section .aboutBtn {
+    padding:30px 0px;
+}
+.second-section .aboutBtn .contBtn {
+    border:1px solid white;
+    background-color: transparent;
+    padding:15px;
+    border-radius:20px;
+    color:#ffd15a;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.second-section .aboutBtn .downBtn {
+    border:none;
+    background-color: #ffd15a;
+    padding:15px;
+    border-radius:20px;
+    color: rgb(33, 32, 71);
+    font-size: 17px;
+    font-weight: 700;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.second-section .number-01 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:70px;
+}
+.second-section .number-01 h2 {
+    font-size:50px;
+    color:#ffffff30;
+}
+.second-section .number-01 .line {
+    width:50px;
+    height:2px;
+    background-color: #ffd15a;
+    text-align: center;
+    margin-top:30px;
+}
+/* Second Section End */
+
+/* Third Section Start */
+.third-section {
+    width:100%;
+    height:100%;
+    background-color: #101325;;
+    padding-top:100px;
+}
+
+.thirdSec {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thirdSec .exper {
+    flex-basis: 30%;
+    padding-left:250px;
+    padding-bottom: 50px;
+}
+
+.thirdSec .exper h3 {
+    color:#ffd15a;
+    font-size:40px;
+    padding:10px 0;
+}
+
+.thirdSec .exper h2 {
+    color:#ffffff;
+    font-size:50px;
+}
+.thirdSec .exper hr {
+    width:50px;
+    height:3px;
+    border:none;
+    margin-top:10px;
+    background-color: #ffd15a;
+}
+.thirdSec .number-02 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdSec .number-02 h2 {
+    font-size:50px;
+    color:#ffffff30;
+}
+
+.thirdSec .number-02 .line {
+    width:50px;
+    height:2px;
+    background-color: #ffd15a;
+    text-align: center;
+    margin-top:30px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:80rem;
+    margin:0 auto;
+    padding:50px 0px;
+    /* margin-left:250px; */
+}
+.skill1 {
+    width:600px;
+    text-align: start;
+}
+.skill1 .skillName {
+    color:#ffffff;
+    font-size:30px;
+    font-weight: 200;
+    padding:20px 0px;
+}
+
+.skill1 .skill-level {
+    width:600px;
+    text-align: start;
+    margin:0 auto;
+    position:relative;
+    left:0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.skill1 .skill-level .lang {
+    flex-basis: 80%;
+    color:#ffd15a;
+    font-size:25px;
+    font-weight: 100;
+}
+
+.skill1 .skill-level .perc {
+    color: #ffffff;
+    font-size:35px;
+    font-weight: 800;
+}
+.skill1 .hr {
+    width:600px;
+    display: flex;
+}
+.skill1 .hr .hr1{
+    width:300px;
+    height:5px;
+    background-color: orange;
+}
+.skill1 .hr .hr2 {
+    width:300px;
+    height:5px;
+    background-color: #ffffff30;
+}
+/* Third  Section End */
+
+/* Fourth Section Start */
+.fourth-section {
+    width:100%;
+    height:100%;
+    background-color: #101325;;
+    padding-top:200px;
+}
+.fourth-section .area {
+    text-align: center;
+}
+.fourth-section .area h2 {
+    color:#ffd15a;
+    font-size:35px;
+}
+.fourth-section .area h1 {
+    font-size: 50px;
+    color:#ffffff;
+}
+.fourth-section .area hr {
+    width:50px;
+    height:4px;
+    border:none;
+    margin-top:10px;
+    margin:10px auto;
+    background-color: #ffd15a;
+}
+
+.fourth-section .number-03 {
+    position: absolute;
+    right:0;
+    top:153rem;
+    display:flex;
+}
+.fourth-section .number-03 h2 {
+    font-size:50px;
+    color:#ffffff30;
+}
+
+.fourth-section .number-03 .line {
+    width:50px;
+    height:2px;
+    background-color: #ffd15a;
+    text-align: center;
+    margin-top:30px;
+}
+.fourth-section .services {
+    width:125rem;
+    margin:100px 0;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 200px;
+    border:1px solid orange
+}
+
+.fourth-section .services .one {
+    /* visibility: hidden; */
+}
+.fourth-section .service {
+    width:370px;
+    height:420px;
+    background-color: #212047;
+    padding:30px;
+    border-radius: 10px;
+}
+
+.fourth-section .service .serImg img {
+    width:80px;
+}
+.fourth-section .service h2 {
+    color:#ffffff;
+    font-size:25px;
+    padding:20px 0px;
+}
+.fourth-section .service p {
+    color:#ffffff;
+    font-size:20px;
+}
+.fourth-section .service .readMore {
+    color:#ffd15a;
+    padding:30px 0px 0px 0px;
+}
+.fourth-section .abtBtn {
+    text-align: center;
+}
+.fourth-section .abtBtn .left {
+    width:2.3rem;
+    height:10px;
+    border-radius: 20px;
+    border:none;
+    background-color: #66648F;
+    margin-right:4px;
+    cursor: pointer;
+}
+
+.fourth-section .abtBtn .right {
+    width:1.3rem;
+    height:10px;
+    border-radius: 20px;
+    border:none;
+    background-color: #f8f8f830;
+    cursor: pointer;
+}
+/* Fourth Section End */
